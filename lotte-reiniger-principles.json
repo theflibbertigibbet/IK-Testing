@@ -1,0 +1,44 @@
+
+{
+  "principle": "Lotte_Reiniger_Tricktisch_Engine",
+  "mechanical_rules": {
+    "joint_type": "Hammered_Hinge",
+    "joint_constraint": "Zero_Gap_Flush",
+    "articulation_priority": "Gesture_over_Anatomy",
+    "body_language": "Internalized_Weight_Feeling"
+  },
+  "multiplane_camera_concept": {
+    "total_layers": 4,
+    "parallax_logic": "Distance_Inverse_Speed",
+    "planes": [
+      {
+        "id": "Foreground_Aura",
+        "z_index": 100,
+        "material": "Opaque_Black_Card",
+        "parallax_factor": 1.0,
+        "lighting": "Backlit_Sharp"
+      },
+      {
+        "id": "Midground_Actor",
+        "z_index": 50,
+        "material": "Weighted_Lead_Hinged",
+        "parallax_factor": 0.8,
+        "lighting": "Backlit_Soft"
+      },
+      {
+        "id": "Atmospheric_Environment",
+        "z_index": 25,
+        "material": "Tracing_Paper_Layered",
+        "parallax_factor": 0.4,
+        "lighting": "Underlit_Diffusion"
+      },
+      {
+        "id": "Light_Source",
+        "z_index": 0,
+        "material": "Glass_Tricktisch",
+        "parallax_factor": 0.0,
+        "lighting": "Primary_Emission"
+      }
+    ]
+  }
+}

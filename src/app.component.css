@@ -1,0 +1,42 @@
+
+/* Custom styles for range input to ensure consistent look */
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background: #4A90E2; /* blue */
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -5px; /* Adjust to center */
+}
+
+input[type=range]::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  background: #4A90E2;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+
+input[type=range]::-ms-thumb {
+  width: 16px;
+  height: 16px;
+  background: #4A90E2;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+
+input[type=range]:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.5);
+}
+
+input[type=range]:focus::-moz-range-thumb {
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.5);
+}
+
+input[type=range]:focus::-ms-thumb {
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.5);
+}
